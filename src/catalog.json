@@ -1,0 +1,413 @@
+[
+  {
+    "id": "amour-belle-earrings",
+    "name": "Amour Belle Earrings",
+    "category": "Earrings",
+    "price": 999,
+    "description": "Gold-tone bow earrings with softly curved loops. Pair them with studs or wear them on their own.",
+    "photos": [
+      "photos/amour-belle-earrings-1.webp",
+      "photos/amour-belle-earrings-2.webp"
+    ]
+  },
+  {
+    "id": "amour-heart-studs",
+    "name": "Amour Heart Studs",
+    "category": "Earrings",
+    "price": 999,
+    "description": "Tiny gold-tone hearts with a rounded profile. A subtle accent for an everyday ear stack.",
+    "photos": [
+      "photos/amour-heart-studs-1.webp",
+      "photos/amour-heart-studs-2.webp"
+    ]
+  },
+  {
+    "id": "bangle-style-gold-bracelet",
+    "name": "Bangle Style Gold Bracelet",
+    "category": "Bangles",
+    "price": 999,
+    "description": "A wrist accent with a sculptural shape. Wear it solo or build a layered stack.",
+    "photos": [
+      "photos/bangle-style-gold-bracelet-1.webp",
+      "photos/bangle-style-gold-bracelet-2.webp",
+      "photos/bangle-style-gold-bracelet-3.webp",
+      "photos/bangle-style-gold-bracelet-4.webp"
+    ]
+  },
+  {
+    "id": "be-my-watch",
+    "name": "Be My Watch",
+    "category": "Watches",
+    "price": 999,
+    "description": "A jewelry-inspired timepiece. Pair it with a simple bracelet or let it stand on its own.",
+    "photos": [
+      "photos/be-my-watch-1.webp",
+      "photos/be-my-watch-2.webp",
+      "photos/be-my-watch-3.webp",
+      "photos/be-my-watch-4.webp",
+      "photos/be-my-watch-5.webp",
+      "photos/be-my-watch-6.webp",
+      "photos/be-my-watch-7.webp"
+    ]
+  },
+  {
+    "id": "bloome-bangles",
+    "name": "Bloomé Bangles",
+    "category": "Bangles",
+    "price": 999,
+    "description": "Colorful floral details repeat around each bangle. Stack the bright designs or wear a single piece.",
+    "photos": [
+      "photos/bloome-bangles-1.webp",
+      "photos/bloome-bangles-2.webp"
+    ]
+  },
+  {
+    "id": "bow-obsessed",
+    "name": "Bow Obsessed",
+    "category": "Rings",
+    "price": 999,
+    "description": "A finishing touch for your hands. Style it alone or alongside other rings.",
+    "photos": [
+      "photos/bow-obsessed-1.webp"
+    ]
+  },
+  {
+    "id": "bow-pendant-necklace",
+    "name": "Bow Pendant Necklace",
+    "category": "Pendant Necklaces",
+    "price": 999,
+    "description": "A petite bow suspended from a fine chain. Wear it alone to keep the shape in focus.",
+    "photos": [
+      "photos/bow-pendant-necklace-1.webp",
+      "photos/bow-pendant-necklace-2.webp"
+    ]
+  },
+  {
+    "id": "bow-set",
+    "name": "Bow set",
+    "category": "Combo Sets",
+    "price": 999,
+    "description": "Coordinating pieces with a shared motif. Wear them together or style each piece separately.",
+    "photos": [
+      "photos/bow-set-1.webp"
+    ]
+  },
+  {
+    "id": "bunch-of-trendy-pendants",
+    "name": "Bunch of Trendy Pendants",
+    "category": "Pendant Necklaces",
+    "price": 999,
+    "description": "A pendant that brings detail to a simple neckline. Wear it as a single accent or with a layered chain.",
+    "photos": [
+      "photos/bunch-of-trendy-pendants-1.webp"
+    ]
+  },
+  {
+    "id": "charmed-hearts-handchain",
+    "name": "Charmed Hearts Handchain",
+    "category": "Bracelets",
+    "price": 999,
+    "description": "A jewelry accent that draws attention to the wrist. Pair it with a watch or wear it on its own.",
+    "photos": [
+      "photos/charmed-hearts-handchain-1.webp",
+      "photos/charmed-hearts-handchain-2.webp"
+    ]
+  },
+  {
+    "id": "for-a-love-that-knows-no-end",
+    "name": "For a Love That Knows No End",
+    "category": "Pendant Necklaces",
+    "price": 999,
+    "description": "A pendant that brings detail to a simple neckline. Wear it as a single accent or with a layered chain.",
+    "photos": [
+      "photos/for-a-love-that-knows-no-end-1.webp"
+    ]
+  },
+  {
+    "id": "for-her",
+    "name": "For Her",
+    "category": "Watches",
+    "price": 999,
+    "description": "A jewelry-inspired timepiece. Pair it with a simple bracelet or let it stand on its own.",
+    "photos": [
+      "photos/for-her-1.webp",
+      "photos/for-her-2.webp"
+    ]
+  },
+  {
+    "id": "forever-heart-pendant",
+    "name": "Forever Heart Pendant",
+    "category": "Pendant Necklaces",
+    "price": 999,
+    "description": "A pendant that brings detail to a simple neckline. Wear it as a single accent or with a layered chain.",
+    "photos": [
+      "photos/forever-heart-pendant-1.webp"
+    ]
+  },
+  {
+    "id": "gold-glow-oval-edition",
+    "name": "Gold Glow - Oval Edition",
+    "category": "Watches",
+    "price": 999,
+    "description": "A jewelry-inspired timepiece. Pair it with a simple bracelet or let it stand on its own.",
+    "photos": [
+      "photos/gold-glow-oval-edition-1.webp",
+      "photos/gold-glow-oval-edition-2.webp"
+    ]
+  },
+  {
+    "id": "golden-bow-handchain",
+    "name": "Golden Bow Handchain",
+    "category": "Bracelets",
+    "price": 999,
+    "description": "A jewelry accent that draws attention to the wrist. Pair it with a watch or wear it on its own.",
+    "photos": [
+      "photos/golden-bow-handchain-1.webp"
+    ]
+  },
+  {
+    "id": "golden-muse-handchain",
+    "name": "Golden Muse Handchain",
+    "category": "Bracelets",
+    "price": 999,
+    "description": "A jewelry accent that draws attention to the wrist. Pair it with a watch or wear it on its own.",
+    "photos": [
+      "photos/golden-muse-handchain-1.webp"
+    ]
+  },
+  {
+    "id": "golden-swan-set",
+    "name": "Golden Swan Set",
+    "category": "Combo Sets",
+    "price": 999,
+    "description": "Coordinating pieces with a shared motif. Wear them together or style each piece separately.",
+    "photos": [
+      "photos/golden-swan-set-1.webp"
+    ]
+  },
+  {
+    "id": "gold-toned-heart-pendant-necklace",
+    "name": "Gold-Toned Heart Pendant Necklace",
+    "category": "Pendant Necklaces",
+    "price": 999,
+    "description": "A small heart pendant on a fine chain. An easy piece to wear close to the collarbone.",
+    "photos": [
+      "photos/gold-toned-heart-pendant-necklace-1.webp",
+      "photos/gold-toned-heart-pendant-necklace-2.webp"
+    ]
+  },
+  {
+    "id": "heart-set",
+    "name": "Heart Set",
+    "category": "Combo Sets",
+    "price": 999,
+    "description": "Coordinating pieces with a shared motif. Wear them together or style each piece separately.",
+    "photos": [
+      "photos/heart-set-1.webp"
+    ]
+  },
+  {
+    "id": "hollow-heart-pendant-necklace",
+    "name": "Hollow Heart Pendant Necklace",
+    "category": "Pendant Necklaces",
+    "price": 999,
+    "description": "An open heart on a fine gold-tone chain. Let it sit against a simple neckline or layer it with a shorter chain.",
+    "photos": [
+      "photos/hollow-heart-pendant-necklace-1.webp",
+      "photos/hollow-heart-pendant-necklace-2.webp",
+      "photos/hollow-heart-pendant-necklace-3.webp"
+    ]
+  },
+  {
+    "id": "hollow-heart-set",
+    "name": "Hollow Heart Set",
+    "category": "Combo Sets",
+    "price": 999,
+    "description": "Coordinating pieces with a shared motif. Wear them together or style each piece separately.",
+    "photos": [
+      "photos/hollow-heart-set-1.webp"
+    ]
+  },
+  {
+    "id": "infinity-glow-handchain",
+    "name": "Infinity Glow Handchain",
+    "category": "Bracelets",
+    "price": 999,
+    "description": "A jewelry accent that draws attention to the wrist. Pair it with a watch or wear it on its own.",
+    "photos": [
+      "photos/infinity-glow-handchain-1.webp"
+    ]
+  },
+  {
+    "id": "midnight-swan-set",
+    "name": "Midnight Swan Set",
+    "category": "Combo Sets",
+    "price": 999,
+    "description": "Coordinating pieces with a shared motif. Wear them together or style each piece separately.",
+    "photos": [
+      "photos/midnight-swan-set-1.webp"
+    ]
+  },
+  {
+    "id": "mini-heart-set",
+    "name": "Mini Heart Set",
+    "category": "Combo Sets",
+    "price": 999,
+    "description": "Coordinating pieces with a shared motif. Wear them together or style each piece separately.",
+    "photos": [
+      "photos/mini-heart-set-1.webp"
+    ]
+  },
+  {
+    "id": "nail-cuff-set",
+    "name": "Nail Cuff Set",
+    "category": "Combo Sets",
+    "price": 999,
+    "description": "Gold-tone cuffs with a curved nail silhouette. The sculptural ends add detail to a simple stack.",
+    "photos": [
+      "photos/nail-cuff-set-1.webp",
+      "photos/nail-cuff-set-2.webp"
+    ]
+  },
+  {
+    "id": "pearl-butterfly-drop-earrings",
+    "name": "Pearl Butterfly Drop Earrings",
+    "category": "Earrings",
+    "price": 999,
+    "description": "Butterfly drops with pale, pearl-like details. The dangling shape adds movement beside the face.",
+    "photos": [
+      "photos/pearl-butterfly-drop-earrings-1.webp",
+      "photos/pearl-butterfly-drop-earrings-2.webp"
+    ]
+  },
+  {
+    "id": "pink-whirl-charm-duo",
+    "name": "Pink Whirl Charm Duo",
+    "category": "Combo Sets",
+    "price": 999,
+    "description": "Coordinating pieces with a shared motif. Wear them together or style each piece separately.",
+    "photos": [
+      "photos/pink-whirl-charm-duo-1.webp"
+    ]
+  },
+  {
+    "id": "rings-collection",
+    "name": "Rings Collection",
+    "category": "Rings",
+    "price": 999,
+    "description": "A finishing touch for your hands. Style it alone or alongside other rings.",
+    "photos": [
+      "photos/rings-collection-1.webp",
+      "photos/rings-collection-2.webp",
+      "photos/rings-collection-3.webp",
+      "photos/rings-collection-4.webp",
+      "photos/rings-collection-5.webp",
+      "photos/rings-collection-6.webp",
+      "photos/rings-collection-7.webp",
+      "photos/rings-collection-8.webp",
+      "photos/rings-collection-9.webp",
+      "photos/rings-collection-10.webp"
+    ]
+  },
+  {
+    "id": "sapphire-butterfly-set",
+    "name": "Sapphire Butterfly Set",
+    "category": "Combo Sets",
+    "price": 999,
+    "description": "Coordinating pieces with a shared motif. Wear them together or style each piece separately.",
+    "photos": [
+      "photos/sapphire-butterfly-set-1.webp"
+    ]
+  },
+  {
+    "id": "starlight-handchain",
+    "name": "Starlight Handchain",
+    "category": "Bracelets",
+    "price": 999,
+    "description": "A jewelry accent that draws attention to the wrist. Pair it with a watch or wear it on its own.",
+    "photos": [
+      "photos/starlight-handchain-1.webp"
+    ]
+  },
+  {
+    "id": "the-amour-heart-bracelet",
+    "name": "The Amour Heart Bracelet",
+    "category": "Bracelets",
+    "price": 999,
+    "description": "A heart-shaped arrangement of gold-tone beads. The open shape makes it a distinct wrist accent.",
+    "photos": [
+      "photos/the-amour-heart-bracelet-1.webp",
+      "photos/the-amour-heart-bracelet-2.webp"
+    ]
+  },
+  {
+    "id": "the-golden-love-necklace-collection",
+    "name": "The Golden Love Necklace Collection",
+    "category": "Pendant Necklaces",
+    "price": 999,
+    "description": "A pendant that brings detail to a simple neckline. Wear it as a single accent or with a layered chain.",
+    "photos": [
+      "photos/the-golden-love-necklace-collection-1.webp"
+    ]
+  },
+  {
+    "id": "the-royal-hour",
+    "name": "The Royal Hour",
+    "category": "Watches",
+    "price": 999,
+    "description": "A jewelry-inspired timepiece. Pair it with a simple bracelet or let it stand on its own.",
+    "photos": [
+      "photos/the-royal-hour-1.webp",
+      "photos/the-royal-hour-2.webp"
+    ]
+  },
+  {
+    "id": "the-signature-set",
+    "name": "The Signature Set",
+    "category": "Combo Sets",
+    "price": 999,
+    "description": "Coordinating pieces with a shared motif. Wear them together or style each piece separately.",
+    "photos": [
+      "photos/the-signature-set-1.webp",
+      "photos/the-signature-set-2.webp"
+    ]
+  },
+  {
+    "id": "trendy-rings",
+    "name": "Trendy Rings",
+    "category": "Rings",
+    "price": 999,
+    "description": "A finishing touch for your hands. Style it alone or alongside other rings.",
+    "photos": [
+      "photos/trendy-rings-1.webp"
+    ]
+  },
+  {
+    "id": "tulip-bracelets",
+    "name": "Tulip Bracelets",
+    "category": "Bracelets",
+    "price": 999,
+    "description": "Linked floral shapes in soft color combinations. Browse the gallery to see the different looks.",
+    "photos": [
+      "photos/tulip-bracelets-1.webp",
+      "photos/tulip-bracelets-2.webp",
+      "photos/tulip-bracelets-3.webp",
+      "photos/tulip-bracelets-4.webp",
+      "photos/tulip-bracelets-5.webp",
+      "photos/tulip-bracelets-6.webp",
+      "photos/tulip-bracelets-7.webp"
+    ]
+  },
+  {
+    "id": "ysl-bracelet",
+    "name": "YSL Bracelet",
+    "category": "Bracelets",
+    "price": 999,
+    "description": "A slim gold-tone bracelet with a letter detail. The narrow profile works well alongside a watch.",
+    "photos": [
+      "photos/ysl-bracelet-1.webp",
+      "photos/ysl-bracelet-2.webp",
+      "photos/ysl-bracelet-3.webp"
+    ]
+  }
+]
