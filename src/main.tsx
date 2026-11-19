@@ -69,14 +69,14 @@ function Intro({ onClose }: { onClose: () => void }) {
     const timer = setTimeout(onClose, 3890)
     return () => clearTimeout(timer)
   }, [onClose])
-  return <section className="intro" aria-label="Amour opening animation">
+  return <section className="intro" aria-label="Amne opening animation">
     <button className="intro-skip" autoFocus onClick={onClose}>Skip intro <ArrowRight size={16} /></button>
     <div className="intro-stage"><Showpiece /><div className="intro-scene" aria-hidden="true">
       <div className="intro-platform" /><div className="intro-plinth" />
       <div className="intro-box"><div className="intro-photo"><img src={photo(featured[1].photos[0])} alt="" /></div></div>
       <div className="intro-ring ring-one" /><div className="intro-ring ring-two" />
     </div>
-    </div><div className="intro-brand"><b aria-hidden="true">✦</b><span>Amour</span><i>JEWELRY</i></div>
+    </div><div className="intro-brand"><b aria-hidden="true">✦</b><span>Amne</span><i>JEWELRY</i></div>
   </section>
 }
 
@@ -116,7 +116,7 @@ function App() {
   const product = info.get(id)
   const exists = page === 'shop' ? !id || Boolean(category) : page === 'product' ? Boolean(product) : ['', 'wishlist', 'bag', 'checkout', 'confirmation'].includes(page)
   const pageTitle = product?.name ?? category ?? ({ shop: 'Shop', wishlist: 'Wishlist', bag: 'Bag', checkout: 'Checkout', confirmation: 'Confirmation' }[page] || 'Jewelry')
-  useEffect(() => { document.title = pageTitle + ' | Amour' }, [pageTitle])
+  useEffect(() => { document.title = pageTitle + ' | Amne' }, [pageTitle])
 
   function toggle(item: Product) {
     const saved = wish.includes(item.id)
@@ -179,7 +179,7 @@ function App() {
         <div className="header-inner">
           <button className="icon mobile-menu" aria-label={menu ? 'Close menu' : 'Open menu'} aria-expanded={menu} onClick={() => setMenu(!menu)}>{menu ? <X /> : <Menu />}</button>
           <nav className="desktop-nav" aria-label="Main"><a href="#/" aria-current={!page ? 'page' : undefined}>Home</a><a href="#/shop" aria-current={page === 'shop' ? 'page' : undefined}>Shop</a></nav>
-          <a href="#/" className="brand" aria-label="Amour home">Amour<span aria-hidden="true">✦</span></a>
+          <a href="#/" className="brand" aria-label="Amne home">Amne<span aria-hidden="true">✦</span></a>
           <nav className="actions" aria-label="Shopping"><a className="icon header-search" href="#/shop" aria-label="Search the shop"><Search size={20} /></a><a className="icon" href="#/wishlist" aria-label={`Wishlist, ${wish.length} products`}><Heart size={20} /></a><a className="icon" href="#/bag" aria-label={`Bag, ${count} items`}><ShoppingBag size={20} />{count > 0 && <b>{count}</b>}</a></nav>
         </div>
         {menu && <nav className="mobile-nav" aria-label="Collections"><a href="#/" onClick={() => setMenu(false)}>Home</a><a href="#/shop" onClick={() => setMenu(false)}>Shop all</a>{categories.map(value => <a key={value} href={categoryPath(value)} onClick={() => setMenu(false)}>{value}</a>)}</nav>}
@@ -216,7 +216,7 @@ function App() {
         </form> : <Empty title="Your bag is empty" message="Add jewelry to your bag to try checkout." />}</section>}
         {page === 'confirmation' && <section className="shell listing confirmation">{order ? <><Check size={32} /><h1>Demo order complete</h1><p>Thanks, {order.name}. Your demo total was {money(order.total)}.</p><a className="button" href="#/shop">Continue shopping <ArrowRight size={17} /></a></> : <Empty title="Order confirmation" message="Completed demo orders appear here." />}</section>}
       </main>
-      <footer><div className="shell footer-inner"><div><a className="brand" href="#/">Amour<span aria-hidden="true">✦</span></a><p>Jewelry</p></div><nav aria-label="Footer"><a href="#/shop">Shop all</a><a href="#/wishlist">Wishlist</a><a href="#/bag">Shopping bag</a></nav><div className="footer-currency">Pakistan · PKR</div></div></footer>
+      <footer><div className="shell footer-inner"><div><a className="brand" href="#/">Amne<span aria-hidden="true">✦</span></a><p>Jewelry</p></div><nav aria-label="Footer"><a href="#/shop">Shop all</a><a href="#/wishlist">Wishlist</a><a href="#/bag">Shopping bag</a></nav><div className="footer-currency">Pakistan · PKR</div></div></footer>
       <div className={notice ? 'toast visible' : 'toast'} role="status">{notice}</div>
     </div>
   </>
@@ -242,8 +242,8 @@ function Home({ renderCard }: { renderCard: RenderCard }) {
   }, [])
   return <>
     <section className="hero">
-      <div className="hero-copy"><p className="eyebrow"><span aria-hidden="true">✦</span> The Amour Collection</p><h1>Love in the<br /><em>little things.</em></h1><p>Gold-tone details, soft curves, and pieces to make your own.</p><a className="button" href="#/shop">Explore the collection <ArrowRight size={18} /></a></div>
-      <div className="hero-art"><div className="hero-inset" aria-hidden="true"></div><div className="hero-image"><img fetchPriority="high" src={photo(featured[1].photos[0])} alt="Amour open-heart pendant on a gold-tone chain" /></div><a href={productPath(featured[1])} className="hero-tag">Hollow Heart Pendant <ArrowRight size={15} /></a></div>
+      <div className="hero-copy"><p className="eyebrow"><span aria-hidden="true">✦</span> The Amne Collection</p><h1>Love in the<br /><em>little things.</em></h1><p>Gold-tone details, soft curves, and pieces to make your own.</p><a className="button" href="#/shop">Explore the collection <ArrowRight size={18} /></a></div>
+      <div className="hero-art"><div className="hero-inset" aria-hidden="true"></div><div className="hero-image"><img fetchPriority="high" src={photo(featured[1].photos[0])} alt="Amne open-heart pendant on a gold-tone chain" /></div><a href={productPath(featured[1])} className="hero-tag">Hollow Heart Pendant <ArrowRight size={15} /></a></div>
       <a className="scroll-cue" href="#/shop" onClick={event => { event.preventDefault(); document.getElementById("collections")?.scrollIntoView({ behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "instant" : "smooth" }) }} aria-label="Scroll to collections"><ArrowDown size={17} /></a>
     </section>
     <section className="shell home-section" id="collections">
@@ -251,11 +251,11 @@ function Home({ renderCard }: { renderCard: RenderCard }) {
       <div className="category-strip" aria-label="Jewelry collections">{categories.map((category, index) => <a key={category} href={categoryPath(category)} className="category-tile"><img loading="lazy" src={photo(info.get(categoryImages[index])!.photos[0])} alt="" /><span>{category}</span><ArrowRight size={14} /></a>)}</div>
     </section>
     <section className="shell home-section featured">
-      <Reveal className="section-head"><div><p className="eyebrow">Selected for you</p><h2>The Amour edit</h2></div><a className="underlined" href="#/shop">View all jewelry <ArrowRight size={15} /></a></Reveal>
+      <Reveal className="section-head"><div><p className="eyebrow">Selected for you</p><h2>The Amne edit</h2></div><a className="underlined" href="#/shop">View all jewelry <ArrowRight size={15} /></a></Reveal>
       <div className="grid">{featured.map(renderCard)}</div>
     </section>
     <section className="editorial" ref={story}><div className="editorial-media">
-      <img loading="lazy" src={photo('photos/gold-toned-heart-pendant-necklace-1.webp')} alt="Amour heart pendant presented in a jewelry box" /></div>
+      <img loading="lazy" src={photo('photos/gold-toned-heart-pendant-necklace-1.webp')} alt="Amne heart pendant presented in a jewelry box" /></div>
       <div><p className="eyebrow">Pendant necklaces</p><h2>Close to the heart.</h2><a className="button" href={categoryPath('Pendant Necklaces')}>Explore pendants <ArrowRight size={17} /></a></div>
     </section>
   </>
@@ -273,7 +273,7 @@ function Shop({ category, renderCard }: { category?: string; renderCard: RenderC
   }).sort((a, b) => sort === 'az' ? byName(a, b) : byName(b, a))
 
   return <section className="shell listing">
-    <div className="listing-head"><p className="eyebrow">The Amour Collection</p><h1>{category || 'Shop all jewelry'}</h1></div>
+    <div className="listing-head"><p className="eyebrow">The Amne Collection</p><h1>{category || 'Shop all jewelry'}</h1></div>
     <div className="filter-panel"><nav className="filter-chips" aria-label="Filter by category"><a href="#/shop" aria-current={!category ? 'page' : undefined}>All jewelry</a>{categories.map(value => <a key={value} href={categoryPath(value)} aria-current={value === category ? 'page' : undefined}>{value}</a>)}</nav>
     <div className="shop-controls">
       <label className="search-field"><Search size={17} /><input type="search" aria-label="Search products" placeholder="Search jewelry" value={query} onChange={event => { setQuery(event.target.value); setLimit(12) }} /></label>

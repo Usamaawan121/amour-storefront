@@ -1,6 +1,6 @@
-# Amour
+# Amne
 
-A React and TypeScript jewelry storefront. The 37 listings contain 78 original product photos optimized as WebP. Each listing is PKR 999. The included By Amné logo file is preserved as a brand reference, and the storefront uses the Amour wordmark.
+A React and TypeScript jewelry storefront. The 37 listings contain 78 original product photos optimized as WebP. Each listing is PKR 999. The included By Amné logo file is preserved as a brand reference, and the storefront uses the Amne wordmark.
 
 ## Run locally
 
@@ -30,4 +30,4 @@ To test from a phone on the same Wi-Fi network, run `npm run dev -- --host 0.0.0
 
 ## Cinematic update
 
-To apply this ZIP over an existing Amour installation, merge the extracted project files, then run `npm ci` to install the pinned dependencies. The intro uses a procedural Three.js ring and a CSS fallback. Chrome's preview environment verified the CSS fallback, navigation, search, and adding an item to the bag. WebGL rendering requires a browser with WebGL 2 enabled. GSAP ScrollTrigger controls two-way card reveals and the pinned desktop editorial section.
+To apply this ZIP over an existing Amne installation, merge the extracted project files, then run `npm ci` to install the pinned dependencies. The intro uses a procedural Three.js ring and a CSS fallback. Chrome's preview environment verified the CSS fallback, navigation, search, and adding an item to the bag. WebGL rendering requires a browser with WebGL 2 enabled. GSAP ScrollTrigger controls two-way card reveals and the pinned desktop editorial section.

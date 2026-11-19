@@ -1,7 +1,7 @@
 [
   {
     "id": "amour-belle-earrings",
-    "name": "Amour Belle Earrings",
+    "name": "Amne Belle Earrings",
     "category": "Earrings",
     "price": 999,
     "description": "Gold-tone bow earrings with softly curved loops. Pair them with studs or wear them on their own.",
@@ -12,7 +12,7 @@
   },
   {
     "id": "amour-heart-studs",
-    "name": "Amour Heart Studs",
+    "name": "Amne Heart Studs",
     "category": "Earrings",
     "price": 999,
     "description": "Tiny gold-tone hearts with a rounded profile. A subtle accent for an everyday ear stack.",
@@ -331,7 +331,7 @@
   },
   {
     "id": "the-amour-heart-bracelet",
-    "name": "The Amour Heart Bracelet",
+    "name": "The Amne Heart Bracelet",
     "category": "Bracelets",
     "price": 999,
     "description": "A heart-shaped arrangement of gold-tone beads. The open shape makes it a distinct wrist accent.",
